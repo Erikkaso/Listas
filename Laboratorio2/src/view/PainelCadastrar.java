@@ -28,7 +28,7 @@ public class PainelCadastrar extends JPanel {
 		JLabel vertente  = new JLabel("Vertente");
 		JTextField caixaVertente= new JTextField(6);
 		
-		Botao b= new Botao("Cadastrar", Color.GREEN);
+		Botao b= new Botao("Cadastrar", Color.GREEN, this);
 		
 		this.setLayout(new GridLayout(5,2));
 		

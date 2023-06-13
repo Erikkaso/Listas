@@ -36,11 +36,7 @@ public class JanelaPrincipal  extends JFrame{
 		this.setSize(600, 300);
 		this.setBackground(Color.LIGHT_GRAY);
 		
-        PainelBotoes painelBotoes = new PainelBotoes(this); 
-		
-//		JButton b = new JButton("cadastrar");
-//		b.addActionListener(new mostrarCadastro());
-//		
+        PainelBotoes painelBotoes = new PainelBotoes(this); 	
 		
 
 		painelPrincipal = new JPanel();
@@ -50,7 +46,6 @@ public class JanelaPrincipal  extends JFrame{
 		this.add(painelBotoes, BorderLayout.NORTH);
 
 		
-//		this.add(painelPrincipal, BorderLayout.CENTER);
 		painelCadastrar.setVisible(false);
 		painelAtualizar.setVisible(false);
 		painelDeletar.setVisible(false);
